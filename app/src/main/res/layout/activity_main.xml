@@ -52,5 +52,30 @@
             android:text="OK (15%)" />
     </RadioGroup>
 
+    <Switch
+        android:id="@+id/round_up_switch"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintStart_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tip_options"
+        android:text="Round up Tip?"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:checked="true"/>
+    <Button
+        android:id="@+id/calculate_button"
+        android:text="Calculate"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintStart_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/round_up_switch"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tip_result"
+        android:text="Tip Amount"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/calculate_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
