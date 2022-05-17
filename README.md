@@ -10,6 +10,8 @@ Codelab link: [Tip Time App](https://developer.android.com/codelabs/basic-androi
 * How to use string parameters to dynamically create strings.
 * How to use Logcat in Android Studio to find problems in your app.
 
+* [Material Icons](https://fonts.google.com/icons?selected=Material+Icons)
+
 
 ## Calculate the tip
 
